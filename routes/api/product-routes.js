@@ -6,12 +6,14 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 // get all products
 router.get('/', (req, res) => {
   Product.findAll({
+    attributes: ['id', 'product_name', 'price', 'stock'],
     include: [
       {
         model: Category
       },
       {
-        model: Tag
+        model: Tag,
+        attributes: ['tag_name']
       }
     ]
   })
@@ -28,12 +30,14 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
+    attributes: ['id', 'product_name', 'price', 'stock'],
     include: [
       {
         model: Category
       },
       {
-        model: Tag
+        model: Tag,
+        attributes: ['tag_name']
       }
     ]
   })
