@@ -9,7 +9,9 @@ router.get('/', (req, res) => {
     include: [
       {
         model: Category,
-        attributes: ['category_name']
+      },
+      {
+        model: Tag
       }
     ]
   })
@@ -26,13 +28,10 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    attributes: ['product_name', 'price', 'stock'],
-    include: [
+    include:
       {
-        model: Category,
-        attributes: ['category_name']
+        model: Tag
       }
-    ]
   })
   .then(dbCatData => {
     if (!dbCatData) {
