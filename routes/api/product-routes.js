@@ -37,12 +37,12 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-  .then(dbCatData => {
-    if (!dbCatData) {
+  .then(dbProductData => {
+    if (!dbProductData) {
       res.status(404).json({ message: "No product found with this ID." });
       return;
     }
-    res.json(dbCatData)
+    res.json(dbProductData)
   })
   .catch(err => {
     console.log(err);
