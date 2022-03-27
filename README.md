@@ -26,8 +26,6 @@ Then, log into MySQL shell, and enter this command to connect to the database: `
 
 ## Tests
 
-First, you must add your MySQL username and password to the ".env" file. You can find this file in the root directory of the repo.
-
 Then from the terminal, enter this command to seed the database with test data: `npm run seed`
 
 Enter this command to run the application: `npm start`
