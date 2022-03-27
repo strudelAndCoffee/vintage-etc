@@ -22,11 +22,11 @@ In the terminal, enter this command to install dependencies: `npm install`
 
 (To verify that everything is installed, check that the "package-lock.json" file exists in the root directory of the repo.)
 
-Then, in MySQL shell, enter this command to connect to the database: `source db/schema.sql;`
+Then, log into MySQL shell, and enter this command to connect to the database: `source db/schema.sql;`
 
 ## Tests
 
-First, you must add your MySQL username and password to the ".env" file. You can find this file in the root directoryof the repo.
+First, you must add your MySQL username and password to the ".env" file. You can find this file in the root directory of the repo.
 
 Then from the terminal, enter this command to seed the database with test data: `npm run seed`
 
