@@ -4,7 +4,7 @@
 
 ## Description
 
-This project demonstrates the server/database connection for an E-Commerce shopping site. The server runs on Node.JS and Express, and establishes RESTful API calls to a SQL database through MySQL and Sequelize. The repo does dot include any front end for user interactions, so testing the functionality requires an API testing platform such as Insomnia. The project also requires MySQL to be installed and having an account to access databases using MySQL shell.
+This project demonstrates the server/database connection for an E-Commerce shopping site. The server runs on Node.JS and Express, and establishes RESTful API calls to a SQL database through MySQL and Sequelize. The repo does dot include any front end for user interactions, so testing the functionality requires an API testing platform such as Insomnia. The project also requires MySQL to be installed with an account to access databases using MySQL shell.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ From the root directory of the repo...
 
 In the terminal, enter this command to install dependencies: `npm install`
 
-(To verify that everything is installed, check the "package-lock.json" in the root directory of the repo.)
+(To verify that everything is installed, check that the "package-lock.json" file exists in the root directory of the repo.)
 
 Then, in MySQL shell, enter this command to connect to the database: `source db/schema.sql;`
 
