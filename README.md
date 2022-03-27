@@ -36,6 +36,8 @@ Enter this command to run the application: `npm start`
 
 You may watch a walk-through tutorial video here:
 
+[Walk-Through Tutorial Video](https://drive.google.com/file/d/1PWM67MmnLHGFJ_JD7rQB9lzRvP95ipjg/view?usp=sharing)
+
 After installing the dependencies, and setting up/seeding the database...
 
 ![Running MySQL commands in the command terminal](https://github.com/strudelAndCoffee/vintage-etc/blob/main/assets/images/demo-screencap-1.png)
