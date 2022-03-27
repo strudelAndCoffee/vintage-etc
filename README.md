@@ -49,6 +49,16 @@ Connect to the server by typing `npm start` in the terminal.
 
 Through the API routes, you can make GET, POST, PUT, and DELETE calls to the database. Since the repo is not deployed, you must use an API testing platform, such as Insomnia.
 
+Try the following API routes:
+
+`api/categories`
+`api/products`
+`api/tags`
+
+Add `/` and a number ID to the end of the url to view single items.
+
+Try GET, POST, PUT, and DELETE request calls on all routes!
+
 ![Making a GET call to the API in Insomnia](https://github.com/strudelAndCoffee/vintage-etc/blob/main/assets/images/demo-screencap-4.png)
 ![Making a POST cal to the API in Insomnia](https://github.com/strudelAndCoffee/vintage-etc/blob/main/assets/images/demo-screencap-5.png)
 
