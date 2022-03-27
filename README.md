@@ -1,7 +1,6 @@
 # Vintage, Etc.
 
-![License badge](https://img.shields.io/badge/License-ISC-green)
-![Code of Conduct badge](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)
+![ISC License badge](https://img.shields.io/badge/License-ISC-green)
 
 ## Description
 
@@ -10,10 +9,9 @@ This project demonstrates the server/database connection for an E-Commerce shopp
 ## Table of Contents
 
 * [Installation](#installation)
-* [Usage](#usage)
 * [Tests](#tests)
+* [Usage](#usage)
 * [Questions](#questions)
-* [Contributing](#contributing)
 * [License](#license)
 
 ## Installation
@@ -38,25 +36,23 @@ You may watch a walk-through tutorial video here:
 
 After installing the dependencies, and setting up/seeding the database...
 
-![]
+![Running MySQL commands in the command terminal](https://github.com/strudelAndCoffee/vintage-etc/blob/main/assets/images/demo-screencap-1.png)
+![Running the seed database command in Git Bash](https://github.com/strudelAndCoffee/vintage-etc/blob/main/assets/images/demo-screencap-2.png)
 
 Connect to the server by typing `npm start` in the terminal.
 
-![]
+![Connecting to the server in Git Bash](https://github.com/strudelAndCoffee/vintage-etc/blob/main/assets/images/demo-screencap-3.png)
 
 Through the API routes, you can make GET, POST, PUT, and DELETE calls to the database. Since the repo is not deployed, you must use an API testing platform, such as Insomnia.
 
-![]
+![Making a GET call to the API in Insomnia](https://github.com/strudelAndCoffee/vintage-etc/blob/main/assets/images/demo-screencap-4.png)
+![Making a POST cal to the API in Insomnia](https://github.com/strudelAndCoffee/vintage-etc/blob/main/assets/images/demo-screencap-5.png)
 
 ## Questions
 
 For additional questions, you may reach me via email: strudelandcoffee@gmail.com 
 
 View my GitHub profile: [strudelAndCoffee](https://github.com/strudelAndCoffee)
-
-## Contributing
-
-Please review the Contributer Covenant [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.txt)
 
 ## License
 
